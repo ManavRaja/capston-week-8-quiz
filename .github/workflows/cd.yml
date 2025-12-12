@@ -38,7 +38,7 @@ jobs:
         echo "Building deployment package..."
         mkdir -p deployment
         cp -r src deployment/
-        cp -r test deployment/
+        cp -r tests deployment/
         echo "Build completed successfully!"
 
     - name: Deploy application
